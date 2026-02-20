@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference
+      Include="..\..\Neospykar.Directory.Contact.Business\Neospykar.Directory.Contact.Business.csproj" />
+    <ProjectReference
+      Include="..\..\Neospykar.Directory.Contact.Contract\Neospykar.Directory.Contact.Contract.csproj" />
+    <ProjectReference
+      Include="..\..\Neospykar.Directory.Contact.DataAccess\Neospykar.Directory.Contact.DataAccess.csproj" />
+    <ProjectReference
+      Include="..\..\Neospykar.Directory.Contact.Repository\Neospykar.Directory.Contact.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
